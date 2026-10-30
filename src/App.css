@@ -1,0 +1,70 @@
+
+.vehicle-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+  color: #1c2b45;
+  font-family: Arial, sans-serif;
+}
+
+.vehicle-form,
+.vehicle-list {
+  background: white;
+  padding: 24px;
+  margin: 24px 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px #1c2b4510;
+}
+
+.vehicle-form form {
+  display: grid;
+  gap: 16px;
+  max-width: 500px;
+}
+
+.vehicle-form label {
+  display: grid;
+  gap: 8px;
+}
+
+.vehicle-form input:not([type="checkbox"]),
+.vehicle-form select {
+  padding: 12px;
+  border: 1px solid #ccd5e2;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.vehicle-form .availability {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.vehicle-page button {
+  padding: 10px 16px;
+  margin: 4px 8px 4px 0;
+  border: none;
+  border-radius: 7px;
+  background: #3658d4;
+  color: white;
+  cursor: pointer;
+}
+
+.vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.vehicle-card {
+  padding: 18px;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .vehicle-page {
+    padding: 16px;
+  }
+}

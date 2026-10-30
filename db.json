@@ -1,0 +1,115 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "name": "Hyundai Creta",
+      "type": "SUV",
+      "pricePerDay": 2500,
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Honda City",
+      "type": "Sedan",
+      "pricePerDay": 1800,
+      "available": true
+    },
+    {
+      "name": "Toyota Innova.",
+      "type": "Car",
+      "pricePerDay": 2000,
+      "available": false,
+      "id": "JSHeXyN"
+    },
+    {
+      "name": "Toyota Innova.",
+      "type": "Car",
+      "pricePerDay": 4000,
+      "available": true,
+      "id": "zbg1DFi"
+    },
+    {
+      "name": "BMW",
+      "type": "Car",
+      "pricePerDay": 30000,
+      "available": true,
+      "id": "PjO2n5a"
+    },
+    {
+      "name": "scropin",
+      "type": "Car",
+      "pricePerDay": 40000,
+      "available": true,
+      "id": "WCd1net"
+    },
+    {
+      "name": "mg",
+      "type": "Car",
+      "pricePerDay": 5000,
+      "available": false,
+      "id": "4LvZ0PA"
+    },
+    {
+      "name": "kia",
+      "type": "Car",
+      "pricePerDay": 8000,
+      "available": false,
+      "id": "KFf7sEL"
+    }
+  ],
+  "customers": [
+    {
+      "name": "ravi kumar",
+      "phone": "9876543210",
+      "id": 1
+    },
+    {
+      "name": "meghna",
+      "phone": "956478934",
+      "id": 2
+    },
+    {
+      "name": "navyaka",
+      "phone": "1234556789",
+      "id": 3
+    }
+  ],
+  "rentals": [
+    {
+      "vehicleId": "JSHeXyN",
+      "vehicleName": "Toyota Innova.",
+      "customerId": 1,
+      "customerName": "ravi kumar",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-31",
+      "days": 2,
+      "totalAmount": 4000,
+      "status": "Booked",
+      "id": 1
+    },
+    {
+      "vehicleId": "4LvZ0PA",
+      "vehicleName": "mg",
+      "customerId": 2,
+      "customerName": "meghna",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "days": 2,
+      "totalAmount": 10000,
+      "status": "Booked",
+      "id": 2
+    },
+    {
+      "vehicleId": "KFf7sEL",
+      "vehicleName": "kia",
+      "customerId": 3,
+      "customerName": "navyaka",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "days": 1,
+      "totalAmount": 8000,
+      "status": "Booked",
+      "id": 3
+    }
+  ]
+}

@@ -55,6 +55,13 @@
       "pricePerDay": 8000,
       "available": false,
       "id": "KFf7sEL"
+    },
+    {
+      "name": "honda",
+      "type": "Car",
+      "pricePerDay": 1500,
+      "available": false,
+      "id": "xXDkpnc"
     }
   ],
   "customers": [
@@ -72,6 +79,11 @@
       "name": "navyaka",
       "phone": "1234556789",
       "id": 3
+    },
+    {
+      "name": "durga",
+      "phone": "7989999234",
+      "id": 4
     }
   ],
   "rentals": [
@@ -110,6 +122,18 @@
       "totalAmount": 8000,
       "status": "Booked",
       "id": 3
+    },
+    {
+      "vehicleId": "xXDkpnc",
+      "vehicleName": "honda",
+      "customerId": 4,
+      "customerName": "durga",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "days": 1,
+      "totalAmount": 1500,
+      "status": "Booked",
+      "id": 4
     }
   ]
 }
